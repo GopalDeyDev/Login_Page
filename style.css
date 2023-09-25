@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login-form{
+    width: 414px;
+    margin: 80px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #e3e3e3;
+    padding: 40px;
+}
+.login-form h1{
+    text-align: center;
+    color:#212338;
+    font-size:29px ;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin:18px 0px;
+    
+}
+
+.form-group label{
+    color: #6b6d7c;
+    font-size: 15;
+}
+
+.form-control{
+    height: 36px;
+    padding: 18px;
+    border: 1px solid #e2e2e9;
+    border-radius: 6px;
+    background-color: #e2e2e9;
+}
+
+.form-control:focus{
+    outline: none;
+}
+.form-control:focus{
+    background-color: #e2e2e9;
+}
+.form-control:active{
+    background-color: #e2e2e9;
+}
+
+.rem-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: #0d2438;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 30px;
+}
+.moresec{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nd-ac{
+    margin-top: 20px;
+}
+
+
+.btn-primary{
+    font-size: 18px;
+    width: 100%;
+    padding: 12px 0px;
+    background-color: white;
+    border: 1px solid #212338;
+    border-radius: 30px;
+}
+
+.btn-primary img{
+    width: 18px;
+    height: 18px;
+}
+/* .btn-primary::before{
+    content: url("https://fedora.teachablecdn.com/assets/teachable-circle-green-8747bce39a92fe2e2e76faed853d5195d1104b65ca3835ddecb78dfb18336953.svg");
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+} */
